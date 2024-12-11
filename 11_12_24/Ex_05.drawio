@@ -1,0 +1,85 @@
+<mxfile host="65bd71144e">
+    <diagram id="FzgGMElaXbaIYVZkuWUW" name="Page-1">
+        <mxGraphModel dx="1964" dy="1364" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="840" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="692" y="80" width="269.5" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;container=0;" vertex="1" parent="17">
+                    <mxGeometry x="74.75" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;input&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;กรุณาระบุระยะทาง (กิโลเมตร)&lt;/span&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;container=0;" vertex="1" parent="17">
+                    <mxGeometry x="57.25" y="120" width="155" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="17" source="2" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(220, 220, 170);&quot;&gt;input&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;เลือกพาหนะ (รถยนต์/รถไฟฟ้า)&lt;/span&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;container=0;" vertex="1" parent="17">
+                    <mxGeometry x="57.25" y="230" width="155" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="17" source="6" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192);&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;transport_mode&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;&quot;1&quot;&lt;/span&gt;:&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;verticalAlign=middle;horizontal=1;container=0;" vertex="1" parent="17">
+                    <mxGeometry y="340" width="269.5" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="17" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;cost&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;distance&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;4&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="17">
+                    <mxGeometry x="47.129999999999995" y="480" width="175.25" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="17" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="17">
+                    <mxGeometry x="135" y="440" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="18" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1158" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(204, 204, 204);&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;cost&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;distance&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;*&lt;/span&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#b5cea8&quot;&gt;1&lt;/font&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1070" y="560" width="175.25" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1158" y="470"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="440" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="22" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;ค่าใช้จ่ายในการเดินทางด้วย &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;transport_mode&lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt; ระยะทาง &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;distance&lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt; กิโลเมตร คือ &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;color: rgb(156, 220, 254);&quot;&gt;cost&lt;/span&gt;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt; บาท&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="855" y="690" width="290" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="24" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;labelBackgroundColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="990" y="630" width="20" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="24">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="827" y="640"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
