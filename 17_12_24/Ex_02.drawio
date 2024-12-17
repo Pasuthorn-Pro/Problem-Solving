@@ -1,0 +1,106 @@
+<mxfile host="65bd71144e">
+    <diagram id="Lr_d2YKcdT2_t_DWCmbh" name="Page-1">
+        <mxGraphModel dx="2918" dy="1415" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="32" value="" style="group;aspect=fixed;fontSize=18;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="210" y="60" width="1312.24" height="1430" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=30;" vertex="1" parent="32">
+                    <mxGeometry x="572.0020512820513" width="168.23589743589744" height="100.94117647058823" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 30px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(206, 145, 120); font-size: 30px;&quot;&gt;กรุณาใส่จำนวนเงินกู้: &lt;/span&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;fontSize=30;" vertex="1" parent="32">
+                    <mxGeometry x="513.1194871794872" y="168.23529411764707" width="286.00102564102565" height="134.58823529411765" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="32" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 22px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192); font-size: 22px;&quot;&gt;if&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 22px;&quot;&gt;1&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 22px;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 22px;&quot;&gt;เงินกู้&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 22px;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 22px;&quot;&gt;1000&lt;/span&gt;:&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fontSize=22;" vertex="1" parent="32">
+                    <mxGeometry x="521.5312820512821" y="370.11764705882354" width="269.1774358974359" height="269.1764705882353" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="32" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 28px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 28px;&quot;&gt;ดอกเบี้ย&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 28px;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 28px;&quot;&gt;เงินกู้&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 28px;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 28px;&quot;&gt;0.10&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fontSize=28;" vertex="1" parent="32">
+                    <mxGeometry x="487.8841025641026" y="706.5882352941177" width="336.4717948717949" height="67.29411764705883" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="32" source="5" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; line-height: 19px; font-size: 22px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 22px;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192); font-size: 22px;&quot;&gt;elif&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 22px;&quot;&gt;1001&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 22px;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 22px;&quot;&gt;เงินกู้&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 22px;&quot;&gt;&amp;lt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 22px;&quot;&gt;10000&lt;/span&gt;:&lt;/div&gt;&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;labelBackgroundColor=none;fontSize=22;" vertex="1" parent="32">
+                    <mxGeometry x="33.647179487179486" y="370.11764705882354" width="269.1774358974359" height="269.1764705882353" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="32" source="5" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 28px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;div style=&quot;font-size: 28px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 28px;&quot;&gt;ดอกเบี้ย&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 28px;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 28px;&quot;&gt;เงินกู้&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 28px;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 28px;&quot;&gt;0.05&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(31, 31, 31); font-size: 28px;&quot;&gt;&lt;span style=&quot;color: rgb(197, 134, 192); font-size: 28px;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fontSize=28;" vertex="1" parent="32">
+                    <mxGeometry y="706.5882352941177" width="336.4717948717949" height="67.29411764705883" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="32" source="10" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 28px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px; font-size: 28px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 28px;&quot;&gt;ดอกเบี้ย&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 28px;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 28px;&quot;&gt;เงินกู้&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 28px;&quot;&gt;*&lt;/span&gt; &lt;span style=&quot;color: rgb(181, 206, 168); font-size: 28px;&quot;&gt;0.02&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fontSize=28;" vertex="1" parent="32">
+                    <mxGeometry x="975.7682051282052" y="706.5882352941177" width="336.4717948717949" height="67.29411764705883" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="32" source="5" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1144.0041025641026" y="504.70588235294116"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="32">
+                    <mxGeometry x="622.4728205128205" y="841.1764705882352" width="67.29435897435897" height="67.29411764705883" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="32" source="7" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="32" source="13" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="168.23589743589744" y="874.8235294117648"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="32" source="16" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1144.0041025641026" y="874.8235294117648"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 30px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(156, 220, 254); font-size: 30px;&quot;&gt;ผลรวม&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 30px;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 30px;&quot;&gt;เงินกู้&lt;/span&gt; &lt;span style=&quot;color: rgb(212, 212, 212); font-size: 30px;&quot;&gt;+&lt;/span&gt; &lt;span style=&quot;color: rgb(156, 220, 254); font-size: 30px;&quot;&gt;ดอกเบี้ย&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;labelBackgroundColor=none;fontSize=30;" vertex="1" parent="32">
+                    <mxGeometry x="466.8546153846154" y="975.7647058823529" width="378.53076923076924" height="67.29411764705883" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="32" source="18" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="&lt;div style=&quot;color: rgb(204, 204, 204); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 24px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;จำนวนเงินที่ต้องชำระคืน (รวมดอกเบี้ย):&lt;/span&gt;&lt;span style=&quot;color: rgb(206, 145, 120);&quot;&gt;บาท&lt;/span&gt;&lt;/div&gt;" style="html=1;strokeWidth=2;shape=manualInput;whiteSpace=wrap;rounded=1;size=26;arcSize=11;labelBackgroundColor=none;fontSize=12;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;align=center;" vertex="1" parent="32">
+                    <mxGeometry x="429.0015384615385" y="1110.3529411764705" width="454.2369230769231" height="151.41176470588235" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="32" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=30;" vertex="1" parent="32">
+                    <mxGeometry x="572.0020512820513" y="1329.0588235294117" width="168.23589743589744" height="100.94117647058823" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;" edge="1" parent="32" source="24" target="26">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="32">
+                    <mxGeometry x="656.12" y="639.2941176470588" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="32">
+                    <mxGeometry x="382.7366666666667" y="454.2352941176471" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="32">
+                    <mxGeometry x="942.1210256410257" y="454.2352941176471" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="32">
+                    <mxGeometry x="168.23589743589744" y="639.2941176470588" width="50" height="30" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
