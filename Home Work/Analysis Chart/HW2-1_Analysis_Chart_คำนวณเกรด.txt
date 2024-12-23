@@ -1,4 +1,4 @@
-Given Data: 80 A, 75-79 B+, 70-74 B, 65-69 C+, 60-64 C, 55-59 D+, 50-54 D, <50 F
+Given Data: จำนวนนักศึกษา, คะแนนของแต่ละคน
 
 Required Result: Show the student's grade
 
