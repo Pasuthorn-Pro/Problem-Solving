@@ -1,6 +1,7 @@
-Given Data: จำนวนนักศึกษา, คะแนนของแต่ละคน
+Given Data: - จำนวนนักศึกษา
+			- คะแนนของแต่ละคน
 
-Required Result: Show the student's grade
+Required Result: 
 
 Required Processing:	- รับค่าจำนวนและคะแนน
 						- วนลูปเพื่อประมวลผลคะแนนของนักศึกษาแต่ละคน
