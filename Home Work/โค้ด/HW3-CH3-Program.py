@@ -1,3 +1,6 @@
+#Big O(1)
+import time
+
 def calculate_sums_optimized(N):
     # คำนวณผลรวมของเลขทั้งหมด
     total_sum = N * (N + 1) // 2
@@ -15,9 +18,16 @@ def calculate_sums_optimized(N):
 # รับค่า N จากผู้ใช้
 N = int(input("Enter the value of N: "))
 
+# เริ่มการวัดเวลา
+start_time = time.time()
+
 # คำนวณผลรวม
 sum_odd, sum_even = calculate_sums_optimized(N)
+
+# หยุดการวัดเวลา
+end_time = time.time()
 
 # แสดงผลลัพธ์
 print(f"Sum of odd numbers: {sum_odd}")
 print(f"Sum of even numbers: {sum_even}")
+print(f"Execution time: {(end_time - start_time) * 1000:.3f} ms")
