@@ -4,4 +4,4 @@ Given Data: - จำนวนเงินที่ต้องการฝาก
 
 Required Result:    - จำนวนเงินที่ต้องฝากในแต่ละ วัน/เดือน/ปี
 
-Required 
+Required Processing: 
