@@ -1,4 +1,3 @@
-# โครงสร้างข้อมูล
 students = []
 
 def add_student():
