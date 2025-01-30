@@ -7,22 +7,18 @@ def get_student():
         students.append((name, score))
     return students
 
-
 def search_student(students, target_score):
     matched_students = [name for name, score in students if score == target_score]
     if matched_students:
         return f"Found {len(matched_students)} student(s) with score {target_score}: {', '.join(matched_students)}"
     return f"No students found with score {target_score}"
 
-
 def get_score(student):
     return student[1]
-
 
 def display_top_scores(students, top_n=3, reverse=True):
     sorted_students = sorted(students, key=get_score, reverse=reverse)
     return sorted_students[:top_n]
-
 
 def bubble_sort(students):
     sorted_students = students[:]  # ทำสำเนารายชื่อ เพื่อไม่ให้กระทบข้อมูลต้นฉบับ
@@ -32,7 +28,6 @@ def bubble_sort(students):
             if sorted_students[j][1] > sorted_students[j + 1][1]:
                 sorted_students[j], sorted_students[j + 1] = sorted_students[j + 1], sorted_students[j]
     return sorted_students
-
 
 if __name__ == "__main__":
     students = get_student()
