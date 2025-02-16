@@ -3,12 +3,12 @@
 #นายพสุธร ปรุงเกียรติ
 
 def insert_data(region_data):
-    region = input("Enter region name (e.g., North, South, Central, East): ")
-    province = input("Enter province name: ")
+    region = input("ป้อนชื่อภูมิภาค: ")
+    province = input("ป้อนชื่อจังหวัด: ")
     if region not in region_data:
         region_data[region] = []
     region_data[region].append(province)
-    print(f"Province '{province}' added to region '{region}'.")
+    print(f"จังหวัด '{province}' ถูกเพิ่มไปยังภาค '{region}'.")
 
 
 def update_data(region_data):
@@ -24,17 +24,17 @@ def update_data(region_data):
         print("ไม่พบจังหวัดที่ต้องการแก้ไข")
 
 def search_data(region_data):
-    province = input("Enter province name search: ")
+    province = input("ค้นหาจังหวัดจากชื่อ: ")
     found = False
 
     for region, provinces in region_data.items():
         if province in provinces:
-            print(f"province {province} region {region}")
+            print(f"จังหวัด {province} ภาค {region}")
             found = True
             break
     
     if not found:
-        print("Province not found")
+        print("ไม่พบข้อมูล")
 
 def delete_data(region_data):
     region = input("ป้อนชื่อภาคของจังหวัดที่ต้องการลบ: ")
