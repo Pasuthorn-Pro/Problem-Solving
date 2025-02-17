@@ -3,7 +3,7 @@
 #นายพสุธร ปรุงเกียรติ
 
 def insert_data(region_data):
-    region = input("Enter region(North, Central, Northeast): ")
+    region = input("Enter region(North, Central, Northeast, South): ")
     province = input("Enter province name: ")
     if region not in region_data:
         region_data[region] = []
