@@ -3,48 +3,48 @@
 #นายพสุธร ปรุงเกียรติ
 
 def insert_data(region_data):
-    region = input("ป้อนชื่อภูมิภาค: ")
-    province = input("ป้อนชื่อจังหวัด: ")
+    region = input("Enter region(North, Central, Northeast): ")
+    province = input("Enter province name: ")
     if region not in region_data:
         region_data[region] = []
     region_data[region].append(province)
-    print(f"จังหวัด '{province}' ถูกเพิ่มไปยังภาค '{region}'.")
+    print(f"Province '{province}' Added to '{region}'.")
 
 
 def update_data(region_data):
-    region = input("ป้อนชื่อภาคของจังหวัดที่ต้องการแก้ไข: ")
-    old_province = input("ป้อนชื่อจังหวัดที่ต้องการแก้ไข: ")
+    region = input("Enter Region of the province you want to change: ")
+    old_province = input("Enter province that you want to change: ")
     
     if region in region_data and old_province in region_data[region]:
-        new_province = input("ป้อนชื่อจังหวัดใหม่: ")
+        new_province = input("Enter new province name: ")
         index = region_data[region].index(old_province)
         region_data[region][index] = new_province
-        print(f"แก้ไขชื่อจังหวัด {old_province} เป็น {new_province} สำเร็จ!")
+        print(f"Change  {old_province} to {new_province} success!")
     else:
-        print("ไม่พบจังหวัดที่ต้องการแก้ไข")
+        print("Province not found")
 
 def search_data(region_data):
-    province = input("ค้นหาจังหวัดจากชื่อ: ")
+    province = input("Search province by name: ")
     found = False
 
     for region, provinces in region_data.items():
         if province in provinces:
-            print(f"จังหวัด {province} ภาค {region}")
+            print(f"Province {province} region {region}")
             found = True
             break
     
     if not found:
-        print("ไม่พบข้อมูล")
+        print("Province not found")
 
 def delete_data(region_data):
-    region = input("ป้อนชื่อภาคของจังหวัดที่ต้องการลบ: ")
-    province = input("ป้อนชื่อจังหวัดที่ต้องการลบ: ")
+    region = input("Enter region of the province name you want to delete: ")
+    province = input("Enter province name you want to delete: ")
     
     if region in region_data and province in region_data[region]:
         region_data[region].remove(province)
-        print(f"ลบจังหวัด {province} ออกจาก {region} สำเร็จ!")
+        print(f"Delete {province} from {region} success!")
     else:
-        print("ไม่พบจังหวัดที่ต้องการลบ")
+        print("Province not found")
 
 
 def view_all_data(region_data):
