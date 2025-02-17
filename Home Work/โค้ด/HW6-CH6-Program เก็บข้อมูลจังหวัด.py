@@ -10,7 +10,6 @@ def insert_data(region_data):
     region_data[region].append(province)
     print(f"Province '{province}' Added to '{region}'.")
 
-
 def update_data(region_data):
     region = input("Enter Region of the province you want to change: ")
     old_province = input("Enter province that you want to change: ")
